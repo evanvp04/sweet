@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+.banner{
+	width: 100%;
+	height: 100%;
+	background-image: url(a.png);
+	background-size: cover;
+	background-position: center;	
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #000;
+}
+
+.content p{
+	font-family: 'Brush Script MT', cursive;
+	font-size: 100px;
+	margin-top: 80px;
+	color: #f9f9f9;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	font-family: copperplate;
+	font-size: 18px;
+	border: 2px solid #FFDFDA;	
+	background: transparent;
+	color: #000;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	
+}
+	
+span{
+	background: #FFDFDA;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+button:hover span{
+	width: 100%;
+}
+
+button:hover{
+	border: none;
+}
+
+	
